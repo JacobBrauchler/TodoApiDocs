@@ -1,6 +1,10 @@
 # TodoApiDocs
 # -This is a simple Todo api with documentation using Apidocs
 
+# Getting apidocs
+
+# - npm install apidoc -g
+
 
 # Creating documentation
 
