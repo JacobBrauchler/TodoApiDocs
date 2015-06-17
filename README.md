@@ -62,3 +62,7 @@
 - Run apidoc in the directory holding your application. This will create a doc folder. 
 
 - Open the index.html file in the doc folder to view documentation
+
+# More Apidoc information
+- http://apidocjs.com/
+- started 2014
