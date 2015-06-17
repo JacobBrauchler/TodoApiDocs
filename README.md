@@ -1,5 +1,5 @@
 # TodoApiDocs
-- This is a simple Todo api with documentation using Apidocs
+- This is a simple Todo api with documentation from ApiDocjs
 
 # Getting apidocs
 
@@ -21,38 +21,38 @@
 
 - Then, for each action create your documentation like such: 
 
-/** @api {get} /tasks Request all task information
-* @apiName GetAllTasks
-* @apiGroup tasks
-* @apiVersion 0.0.6
-* @apiExample {curl} Example usage:
-*     curl -i http://localhost/tasks/
-*
-* @apiSuccess{array}returns array of each task object.
-*
-* @apiSuccessExample Example data on success:
-* [
-* 	{
-* 	id: "1"
-* 	name: "Task1"
-* 	description: "Mow the Lawn"
-* 	date_created: "date"
-* 	},
-* 	{
-* 	id: "2"
-* 	name: "Task2"
-* 	description: "Do the laundry"
-* 	date_created: "date"
-* 	}
-* ]
-* @apiError 500 Could not Get Tasks.
-*
-* @apiErrorExample Error-Response:
-*     {
-*       "error": "Cannot GET /get/tasks"
-*     }
-* @apiSampleRequest http://localhost:3000/tasks
-*/
+ @api {get} /tasks Request all task information
+ @apiName GetAllTasks
+ @apiGroup tasks
+ @apiVersion 0.0.6
+ @apiExample {curl} Example usage:
+     curl -i http://localhost/tasks/
+
+ @apiSuccess{array}returns array of each task object.
+
+ @apiSuccessExample Example data on success:
+ [
+ 	{
+ 	id: "1"
+ 	name: "Task1"
+ 	description: "Mow the Lawn"
+ 	date_created: "date"
+ 	},
+ 	{
+ 	id: "2"
+ 	name: "Task2"
+ 	description: "Do the laundry"
+ 	date_created: "date"
+ 	}
+ ]
+ @apiError 500 Could not Get Tasks.
+
+ @apiErrorExample Error-Response:
+     {
+       "error": "Cannot GET /get/tasks"
+     }
+ @apiSampleRequest http://localhost:3000/tasks
+
 
 - I also reccomend creating an _apidoc.js file that can hold past versions of your api documentation
 
