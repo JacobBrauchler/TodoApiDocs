@@ -1,0 +1,9 @@
+{
+  "name": "Task-tracker",
+  "version": "0.0.1",
+  "author": "Jacob Brauchler",
+  "description": "Todo list backend app using, node.js, express and mongodb",
+ 
+  "groups" : ["tasks", "ANOTHERGROUP"],
+  "template": {"withCompare" : true,"withGenerator": true}
+}

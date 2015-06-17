@@ -1,0 +1,26 @@
+{
+  "name": "task-tracker",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "3.0.04",
+    "mongoose": "2.7.4"
+  },
+  "author": "Jacob Brauchler",
+  "description": "Todo list backend app using, node.js, express and mongodb",
+  
+  "order": [
+	  "GetAllTasks",
+	  "GetTaskById"
+  ],
+  "template": {
+	  "withCompare": true,
+	  "withGenerator": true
+  }
+  
+}
+
+
