@@ -1,6 +1,5 @@
 # TodoApiDocs
 # -This is a simple Todo api with documentation using Apidocs
-# -Open the index.html file in the doc folder to view documentation
 
 
 # Creating documentation
@@ -54,3 +53,8 @@
 # -I also reccomend creating an _apidoc.js file that can hold past versions of your api documentation
 
 
+# Viewing docs
+
+# -Run apidoc in the directory holding your application. This will create a doc folder. 
+
+# -Open the index.html file in the doc folder to view documentation
