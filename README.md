@@ -20,8 +20,8 @@
 }
 
 - Then, for each action create your documentation like such: 
-/**
-* @api {get} /tasks Request all task information
+
+/** @api {get} /tasks Request all task information
 * @apiName GetAllTasks
 * @apiGroup tasks
 * @apiVersion 0.0.6
