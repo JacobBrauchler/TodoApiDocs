@@ -4,6 +4,6 @@
   "author": "Jacob Brauchler",
   "description": "Todo list backend app using, node.js, express and mongodb",
  
-  "groups" : ["tasks", "ANOTHERGROUP"],
+  "groups" : ["tasks", "search"],
   "template": {"withCompare" : true,"withGenerator": true}
 }

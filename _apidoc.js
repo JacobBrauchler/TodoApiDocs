@@ -98,9 +98,9 @@
 */
 
 /**
-* @api {get} /tasks requests task by task name
+* @api {get} /search Request task by task name
 * @apiName GetTaskByName
-* @apiGroup tasks
+* @apiGroup search
 * @apiVersion 0.0.1
 *
 * @apiParam {String} name unique Task name
@@ -110,8 +110,9 @@
 * @apiSuccessExample Example data on success:
 * {
 * id: "1"
-* name: "Task1"
+* name: "task1"
 * description: "Mow the Lawn"
-* date_created: "date"
+* date_created: "2015-06-03T23:49:18.059Z"
 * }
-*/
+* @apiSampleRequest http://localhost:3000/search?name=task1
+*/    
